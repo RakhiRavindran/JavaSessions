@@ -24,18 +24,6 @@ public class FactorialPrime {
 		
 		System.out.println("enter the value to check prime number");
 		int p1=sc.nextInt();
-	/*	if(p1==1||p1==2) {
-			System.out.println("is prime");
-		}
-		
-			for (int i = 2; i < p1; i++) {
-				if(p1%i==0) {
-					System.out.println("not a prime");
-					break;
-				}
-				System.out.println("prime");
-			}*/
-		
 		int count=0;
 		for(int i=1;i<=p1;i++) {
 			if(p1%i==0) {
@@ -49,6 +37,21 @@ public class FactorialPrime {
 			System.out.println("not a prime");
 		}
 			sc.close();
+		/*int input= 27;
+	    boolean isPrime = true;
+	    
+	    for(int i=2;i<input;i++){
+	        if((input%i)==0) {
+	           isPrime=false;
+	           break;
+	        }
+	    }
+	       if(isPrime ){
+	            System.out.println(" prime");
+	       }
+	       else{
+	           System.out.println("not prime");
+	        }    */
 				
 	}
 

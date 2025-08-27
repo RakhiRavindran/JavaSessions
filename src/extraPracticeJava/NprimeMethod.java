@@ -16,7 +16,7 @@ public class NprimeMethod {
 			}
 			}
 			
-			if(count==2||i==1) {
+			if(count==2) {
 				//System.out.print(i+" ");
 				prime.add(i);
 				
